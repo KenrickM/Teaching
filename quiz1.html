@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<script>
+function buttonClicked()
+{
+	if (document.getElementById("rb1").checked)
+		window.location.href = "file:///C:/Users/kenri/Downloads/quiz2.html";
+	else if (document.getElementById("rb2").checked)
+		location.href = "quiz3.html";
+}
+</script>
+</head>
+<body>
+
+<h1>What Kind of Engineer Are You?</h1>
+
+<img src="https://www.conquercovidak.com/wp-content/uploads/2021/09/ConquerCovidCoalition-LOGO-2-1030x228.png" title="foo"/>
+
+<h2>Would you like to spend your weekend programming a robot?</h2>
+<form>
+<input type="radio" name="radAnswer" id = "rb1" value="Yes" title="tooltip"> Yes
+<input type="radio" name="radAnswer" id = "rb2" value="No"> No
+<br/>
+<button onclick="buttonClicked()">Submit Answer</button>
+</form>
+
+
+</body>
+</html>
